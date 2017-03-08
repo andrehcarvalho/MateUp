@@ -25,9 +25,39 @@
 
     <div>
         <h3>Personal Preferences:</h3>
-        <button>Dogs</button>
-        <button>Smoking</button>
+        <form action="">
+            <fieldset id="pet"><!--Fieldset with border by default -->
+                <p>Own a pet?<br/>
+                    <input type="radio" name="pet" value="yes" checked="checked">Yes<br/>
+                    <input type="radio" name="pet" value="no">No<br>
+                </p>
+            </fieldset>
+            <fieldset id="smoke">
+                <p>Do you smoke?<br/>
+                    <input type="radio" name="smoke" value="yes" checked="checked">Yes<br/>
+                    <input type="radio" name="smoke" value="no">No<br/>
+                </p>
+            </fieldset>
+            <fieldset id="relationship">
+                <p>Relationship Status<br/>
+                    <input type="radio" name="relationship" value="single" checked="checked">Single<br/>
+                    <input type="radio" name="relationship" value="iar">In a relationship<br/>
+                </p>
+            </fieldset>
+            <fieldset id="student">
+                <p>Are you a student?<br/>
+                    <input type="radio" name="student" value="yes" checked="checked">Yes<br/>
+                    <input type="radio" name="student" value="no">No<br/>
+                </p>
+            </fieldset>
+            <fieldset id="gay-friendly">
+                <p>Gay-friendly<br/>
+                    <input type="checkbox" name="gay-friendly" value="yes">Yes<br/>
+                </p>
+            </fieldset>
+        </form>
         <button>Drinking</button>
+        <button>Parties</button>
         <button>Parties</button>
         <br><br>
     </div>
